@@ -1,3 +1,8 @@
 Flight data:
 The data takes 7 days as a cycle, and usually most flights are scheduled on Thursdays and least flight are scheduled on Saterday.
 
+Candy data:
+Based on the statistic of candy number of different colors, Green candies have the most (102) and red candies the least (51). On the other hand, the plain candies 
+have the most quantity (447), and the peanut butter candies have the least.
+https://github.com/XinYan127/LA558_XinYan/issues/1#issue-1566397874
+https://github.com/XinYan127/LA558_XinYan/issues/2#issue-1566407748
