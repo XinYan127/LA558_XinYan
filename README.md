@@ -7,4 +7,4 @@ I am a second-year Ph.D student majoring in Geology / Earth Sciences.
 The following is some links to the exercises, assignments and class projects.
 
 Class Exercises
-Assignment 1_ Pre course excise.docx
+[Assignment 1_ Pre course excise.docx](https://github.com/XinYan127/LA558_XinYan/blob/4d513fac830b6079874eb839b3bfec32478c2e04/Assignment%201_%20Pre%20course%20excise.docx)
