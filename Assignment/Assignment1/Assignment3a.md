@@ -1,6 +1,6 @@
 # Map1: OpenStreet map
 
-[Open Street map]("https://xinyan127.github.io/LA558_XinYan/Assignment/Assignment1/OSM.html") - Here shows my working address in Open Street Street
+[Open Street map](https://xinyan127.github.io/LA558_XinYan/Assignment/Assignment1/OSM.html) - Here shows my working address in Open Street Street
 
 # Map 2: PDFmap
 [PDF MAP](assign3a.pdf) - I exported an geoPDF version of the map, but I don't have the permission to download the Acrobat software, so I didn't check whether it works well or not.
