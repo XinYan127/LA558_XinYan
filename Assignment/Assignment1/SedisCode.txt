@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>A minimal web page</title>
+    </head>
+    <body>
+        <h1>Task1</h1>
+
+        <h2>Map 1</h2>
+	</body>
+ <p>An OpenStreetMap with a marker embedded on a web page titled assign3a.html </p>
+
+ <p>Click hee to see the map through URK link </p>
+	
+
+	<a href="https://www.openstreetmap.org/?mlat=42.02840&mlon=-93.64253#map=19/42.02840/-93.64253">link 	</a>
+
+<p>
+	<iframe width="625" height="550" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" 	src="https://www.openstreetmap.org/export/embed.html?bbox=-93.64470899105073%2C42.02749146106569%2C-	93.64035576581956%2C42.02931249623404&amp;layer=mapnik&amp;marker=42.028401985170575%2C-93.64253103733063" 	style="border: 1px solid black"></iframe><br/><small><a href="https://www.openstreetmap.org/?	mlat=42.02840&amp;mlon=-93.64253#map=19/42.02840/-93.64253">View Larger Map</a></small> </p>
+    </body>
+
+
+ <h2>Map 1</h2>
+<p>I selected one of neighborhood,CapitolEast, from neighberhoud layer, then using select by location in building layer, I selected buildings with in Capitol east.  </p>
+
+<a href="assign3.pdf" target="_blank">Link</a>
+
+  </body>
+ <h3>Map 2</h3>
+<p>I exported a map using the GIS2Web plugin. </p>
+
+<p>Click hee to see the map through URK link </p>
+	
+<a href="index.HTML" target="_blank">Link</a>
+  </body>
+</html>
