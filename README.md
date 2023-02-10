@@ -13,6 +13,6 @@ I am a second-year Ph.D student majoring in Geology / Earth Sciences.
 - [Exercise 3a](3a) - will have to wait and see what Professor Seeger has planned!
 
 ## Assignments
-[Assignment 1]
+[Assignment 1](Assignment/Assignment1/Assignment3a.md)
 
 ## Final Projects
