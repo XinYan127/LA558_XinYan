@@ -10,7 +10,7 @@ I am a second-year Ph.D student majoring in Geology / Earth Sciences.
 
 [Exercise 2b](Exercise/ex2b_2.md) - Create a map in QGIS and export it to GitHub and then place the image on a webpage created in markdown page
 
-[Exercise 2b](3a) - will have to wait and see what Professor Seeger has planned!
+[Exercise 3a](3a) - will have to wait and see what Professor Seeger has planned!
 
 ## Assignments
 [Assignment 1]
