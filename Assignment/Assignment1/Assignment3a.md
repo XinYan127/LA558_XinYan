@@ -1,6 +1,6 @@
 # Map1: OpenStreet map
 
-[Open Street map](OSM.html) - Here shows my working address via Open Street Street
+[Open Street map](OSM.html) - Here shows my working address in Open Street Street
 
 # Map 2: PDFmap
 [PDF MAP](assign3a.pdf) - I exported an geoPDF version of the map, but I don't have the permission to download the Acrobat software, so I didn't check whether it works well or not.
