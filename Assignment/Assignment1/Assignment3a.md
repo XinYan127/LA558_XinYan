@@ -1,6 +1,6 @@
 # Map1: OpenStreet map
 
-[Open Street map](osm) - A quick analysis/observation of the data provided by the instructor.
+[Open Street map](osm)
 
 ## Map 2: GIS2Web PDF map
 [QGIS2WEB MAP](qgis2web/index)
