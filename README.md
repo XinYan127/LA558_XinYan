@@ -10,8 +10,6 @@ I am a second-year Ph.D student majoring in Geology / Earth Sciences.
 
 - [Exercise 2b](Exercise/ex2b_2.md) - Create a map in QGIS and export it to GitHub and then place the image on a webpage created in markdown page
 
-- [Exercise 3a](3a) - will have to wait and see what Professor Seeger has planned!
-
 - [Exercise 4a](Exercise/ex4a.html) - Create a basic Leaflet Map
 
 ## Assignments
