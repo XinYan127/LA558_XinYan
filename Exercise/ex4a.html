@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+  <head>
+<script src="https://code.jquery.com/jquery-3.1.0.js"></script>
+
+ 
+<meta name="description" content=" LA 458/558 14a Leaflet API Controls - 2020" />
+
+	<link rel="stylesheet" href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css" /> 
+	<script src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js"></script>
+	  
+  </head>
+  <body>
+	  <button type="button" id="Ames">Ames</button><br>
+	  <button type="button" id="Denver">Denver</button><br>
+	  	  <button type="button" id="randomMarkers">10 Random Markers</button><br>
+	  <button type="button" id="getZoom">Get Zoom</button> the Zoom is <span id="theZoom">-</span><br>
+	  
+<div id="map"></div>
+    <script>
+         // Creating map options
+         var mapOptions = {
+            center: [17.385044, 78.486671],
+            zoom: 10
+         }
+         
+         // Creating a map object
+         var map = new L.map('map', mapOptions);
+         
+         // Creating a Layer object
+          // Creating a Layer object
+         var layer = new L.TileLayer('http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png');
+
+         // Adding layer to the map
+         map.addLayer(layer);
+         
+         // Icon options
+         var iconO<!-- ptions = {
+            iconUrl: 'logo.png',
+            iconSize: [50, 50]
+         }
+         // Creating a custom icon
+         var customIcon = L.icon(iconOptions); -->
+         
+         // Creating Marker Options
+         var markerOptions = {
+            title: "MyLocation",
+            clickable: true,
+            draggable: true,
+            icon: customIcon
+         }
+         // Creating a Marker
+         var marker = L.marker([17.438139, 78.395830], markerOptions);
+         
+         // Adding popup to the marker
+         marker.bindPopup('Hi welcome to Tutorialspoint').openPopup();
+         
+         // Adding marker to the map
+         marker.addTo(map);
+
+      </script>
+  </body>
+</html>
