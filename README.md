@@ -13,7 +13,7 @@ I am a second-year Ph.D student majoring in Geology / Earth Sciences.
 - [Exercise 4a](Exercise/ex4a.html) - Create a basic Leaflet Map
 
 ## Assignments
-[Assignment 1](Assignment/Assignment1/Assignment3a.md)
-[Assignment 2](Assignment/Assignment2/assign2.md)
+- [Assignment 1](Assignment/Assignment1/Assignment3a.md)
+- [Assignment 2](Assignment/Assignment2/assign2.md)
 
 ## Final Projects
