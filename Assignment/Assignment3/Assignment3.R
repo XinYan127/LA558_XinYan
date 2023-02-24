@@ -62,6 +62,7 @@ data <- read.csv("https://raw.githubusercontent.com/mwaskom/seaborn-data/master/
 
 data %>%
   ggplot( aes(x=species, y=sepal_length, fill=species) ) + 
-  geom_violin(alpha = 0.5) +
+  scale_fill_manual(values=c("#0000FF", "#00FF00", "#FF0000")) +
+  geom_violin(alpha = 0.3) + 
   labs(title = "Violin plot", 
        x = "species") 
