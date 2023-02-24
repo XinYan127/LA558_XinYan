@@ -12,6 +12,8 @@ I am a second-year Ph.D student majoring in Geology / Earth Sciences.
 
 - [Exercise 4a](Exercise/ex4a.html) - Create a basic Leaflet Map
 
+- [Exercise 6a](Exercise/Exercise6a.md) - Create a US census population map by state for 2015
+
 ## Assignments
 - [Assignment 1](Assignment/Assignment1/Assignment3a.md)
 - [Assignment 2](Assignment/Assignment2/assign2.md)
