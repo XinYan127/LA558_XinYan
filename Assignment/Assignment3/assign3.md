@@ -1,8 +1,13 @@
 # Plot 1
 
+I used the get_acs function to obtain household income data for 2020 at the Iowa county level. I built a base map and plot the Iowa county according to their income value, and I also added some map elements, like the scale, compass, credits and the legend.
+
+![Plot 1](plot1_update.png)
+
+
 I used the get_decennial function to obtain the census data at the Iowa county level, selected and renamed the total_households and vacant_households variables, and calculated their proportions, and selected the counties whose proportions were greater than 15%, and drew a bar graph for them, removed repeated characters.
 
-![Plot 1](Plot1.png)
+![Plot 1_Previous One](Plot1.png)
 
 # Plot 2
 
