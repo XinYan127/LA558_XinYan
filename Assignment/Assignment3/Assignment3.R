@@ -3,26 +3,39 @@ library(dplyr)
 
 
 # ------------ 1. Plot using variables of choice from TidyCensus ------------  
-
-ia_vacancies <- get_decennial(
+iowa_income <- get_acs(
   geography = "county",
-  variables = c(total_households = "H1_001N",
-                vacant_households = "H1_003N"),
+  variables = "B19013_001",
   state = "IA",
   year = 2020,
-  output = "wide"
-) %>%
-  mutate(percent_vacant = 100 * (vacant_households / total_households)) %>% subset(percent_vacant > 15)
+  geometry = TRUE
+)
 
-ggplot(ia_vacancies, aes(x = percent_vacant, y = reorder(NAME, percent_vacant)), fill = NAME) + 
-  geom_bar(stat="identity", fill="#f68060", alpha=.6, width=.4) +
-  scale_x_continuous(labels = label_percent(scale = 1)) + 
-  scale_y_discrete(labels = function(y) stringr::str_remove	(y, " County, Iowa")) + 
-  labs(x = "Percent vacant households", 
-       y = "", 
-       title = "Household vacancies (15%) by county in Iowa", 
-       subtitle = "2020 decennial US Census") +
-  theme_bw()
+basemap <- osm.raster(
+  st_bbox(iowa_income), 
+  zoom = 8,
+  type = "cartolight",
+  crop = TRUE
+)
+
+tm_shape(basemap) + 
+  tm_rgb() + 
+  tm_shape(iowa_income) + 
+  tm_polygons(col = "estimate",
+              style = "quantile",
+              n = 7,
+              palette = "Blues",
+              title = "Income") + 
+  tm_layout(title = "Income2020 IOWA Income Cencus",
+            frame = FALSE,
+            legend.outside = TRUE) +
+  tm_scale_bar(position = c("left", "BOTTOM")) + 
+  tm_compass(position = c("right", "top")) + 
+  tm_credits("Basemap (c) CARTO, OSM", 
+             bg.color = "white",
+             position = c("RIGHT", "BOTTOM"), 
+             bg.alpha = 0,
+             align = "right")
 
 # ------------ 2. Plot from tidyCensus or a plot using the world data and  the idbr package ------------ 
 
