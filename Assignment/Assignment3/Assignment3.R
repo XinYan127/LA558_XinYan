@@ -26,7 +26,7 @@ tm_shape(basemap) +
               n = 7,
               palette = "Blues",
               title = "Income") + 
-  tm_layout(title = "Income2020 IOWA Income Cencus",
+  tm_layout(title = "2020 IOWA Income Cencus",
             frame = FALSE,
             legend.outside = TRUE) +
   tm_scale_bar(position = c("left", "BOTTOM")) + 
