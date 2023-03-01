@@ -14,7 +14,7 @@ I am a second-year Ph.D student majoring in Geology / Earth Sciences.
 
 - [Exercise 6a](Exercise/Exercise6a.md) - Create a US census population map by state for 2015
 
-- [Exercise 7a](Exercise/ex7a/ex7a.md) - A map comparsion
+- [Exercise 7a](Exercise/exe7a/ex7a.md) - A map comparsion
 
 ## Assignments
 - [Assignment 1](Assignment/Assignment1/Assignment3a.md)
