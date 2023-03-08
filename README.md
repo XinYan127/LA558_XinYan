@@ -16,6 +16,8 @@ I am a second-year Ph.D student majoring in Geology / Earth Sciences.
 
 - [Exercise 7a](Exercise/exe7a/ex7a.md) - A map comparsion
 
+- [Exercise 7b](Exercise/ex7b.html) - A try of making leaflet map using R
+
 ## Assignments
 - [Assignment 1](Assignment/Assignment1/Assignment3a.md)
 - [Assignment 2](Assignment/Assignment2/assign2.md)
