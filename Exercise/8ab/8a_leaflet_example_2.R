@@ -2,8 +2,8 @@
 # 
 # March 7, 2023
 # Chris Seeger
-setwd("~/Documents/github/LA558_XinYan/Exercise/8a")
-# install.packages("leaflet", "leaflet.providers", "tidyverse")
+
+install.packages("leaflet", "leaflet.providers", "tidyverse")
 library(leaflet)
 library(leaflet.providers)
 library(tidyverse)
@@ -39,8 +39,8 @@ map
 map <- leaflet(myData) %>% 
   addTiles() %>%
   addCircles(~longitude, ~latitude, popup = paste("<strong>", 
-                                                  myData$last_name, "</strong><br>", "Shirt Size: ", 
-                                                  myData$shirt_size))
+    myData$last_name, "</strong><br>", "Shirt Size: ", 
+    myData$shirt_size))
 map
 
 # Maybe change the size and color of the circles
@@ -48,9 +48,9 @@ map
 map <- leaflet(myData) %>% 
   addTiles() %>%
   addCircles(~longitude, ~latitude, popup= paste("<strong>", 
-                                                 myData$last_name, "</strong><br>", "Shirt Size: ", 
-                                                 myData$shirt_size), weight = 4, radius=1000, 
-             color="red", stroke = TRUE, fillOpacity = 0.8)
+    myData$last_name, "</strong><br>", "Shirt Size: ", 
+    myData$shirt_size), weight = 4, radius=1000, 
+    color="red", stroke = TRUE, fillOpacity = 0.8)
 map
 
 # Time to add some options for the base map
@@ -63,17 +63,17 @@ names(providers)
 map <- leaflet(myData) %>% 
   addTiles(group = "OSM", options = providerTileOptions(minZoom = 4, maxZoom = 10)) %>%
   addProviderTiles("Stamen.TonerLite", group = "Toner", 
-                   options = providerTileOptions(minZoom = 8, maxZoom = 10)) %>%
+    options = providerTileOptions(minZoom = 8, maxZoom = 10)) %>%
   addProviderTiles("Stamen.Watercolor", group = "Water Color") %>%
   addProviderTiles("Esri.WorldTopoMap", group = "Topo") %>%
   addProviderTiles("OpenStreetMap.Mapnik", group = "Mapnik") %>%
   addProviderTiles("CartoDB.Positron", group = "CartoDB") %>%
   addLayersControl(baseGroups = c("OSM", "Toner", "Water Color", "Topo", "Mapnik", "CartoDB"),
-                   options = layersControlOptions(collapsed = TRUE)) %>%
+    options = layersControlOptions(collapsed = TRUE)) %>%
   addCircles(~longitude, ~latitude, popup= paste("<strong>", 
-                                                 myData$last_name, "</strong><br>", "Shirt Size: ", 
-                                                 myData$shirt_size), weight = 4, radius=40, 
-             color="red", stroke = TRUE, fillOpacity = 0.8)
+    myData$last_name, "</strong><br>", "Shirt Size: ", 
+    myData$shirt_size), weight = 4, radius=40, 
+    color="red", stroke = TRUE, fillOpacity = 0.8)
 map
 
 # Time to go back to something a bit simpler. Add markers from the CSV with 
@@ -81,27 +81,27 @@ map
 myData <-youthConf1000
 map <- leaflet(myData) %>% 
   addProviderTiles("Stamen.TonerLite", 
-                   options = providerTileOptions(minZoom = 4, maxZoom = 10)) %>%
+    options = providerTileOptions(minZoom = 4, maxZoom = 10)) %>%
   addMarkers(~longitude, ~latitude)
 map
 
 # Wow, that was a lot of points! How about only the first 200 observations?
 map <- leaflet(myData[1:200,]) %>% 
   addProviderTiles("Stamen.TonerLite", 
-                   options = providerTileOptions(minZoom = 4, maxZoom = 10))%>%
+    options = providerTileOptions(minZoom = 4, maxZoom = 10))%>%
   addMarkers(~longitude, ~latitude)
 map
 
 # Make clusters, note this only appears to work with addMarkers
 map <- leaflet(myData[1:200,]) %>% 
   addProviderTiles("Stamen.TonerLite", 
-                   options = providerTileOptions(minZoom = 4, maxZoom = 10))%>%
+    options = providerTileOptions(minZoom = 4, maxZoom = 10))%>%
   addMarkers(~longitude, ~latitude, clusterOptions = markerClusterOptions())
 map
 
 # One more try on all 1,000 locations
 map <- leaflet(myData) %>% 
   addProviderTiles("Stamen.TonerLite", 
-                   options = providerTileOptions(minZoom = 4, maxZoom = 10))%>%
+    options = providerTileOptions(minZoom = 4, maxZoom = 10))%>%
   addMarkers(~longitude, ~latitude, clusterOptions = markerClusterOptions())
 map
