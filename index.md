@@ -22,5 +22,6 @@ I am a second-year Ph.D student majoring in Geology / Earth Sciences.
 - [Assignment 1](Assignment/Assignment1/Assignment3a.md)
 - [Assignment 2](Assignment/Assignment2/assign2.md)
 - [Assignment 3](Assignment/Assignment3/assign3.md)
+- [Assignment 4](Assignment/Assignment4/m.html)
 
 ## Final Projects
