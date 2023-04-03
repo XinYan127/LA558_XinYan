@@ -1,3 +1,21 @@
-The R codes are shown [here](assign4.R).
+<!DOCTYPE html>
+<html>
+<body>
 
-The html map is shown [here](m.html).
+<h1>Assignment 4</h1>
+<h3>Leaflet Map with Markers</h3>
+This map shows 50 markers got from "quakes" dataset in R dataset resources.
+<br><br>
+<iframe src="mar.html" width="750" height="550" style="border:2px solid black;">
+</iframe>
+
+<br> <br>
+
+<h3>Leaflet Choropleth Map</h3>
+This choropleth map shows the student count in Iowa County using data that Prof. Seeger proveded.
+<br><br>
+<iframe src="m.html" width="750" height="550" style="border:2px solid black;">
+</iframe> 
+</body>
+</html>
+
