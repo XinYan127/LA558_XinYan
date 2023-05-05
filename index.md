@@ -27,3 +27,4 @@ I am a second-year Ph.D student majoring in Geology / Earth Sciences.
 - [Assignment 7](Assignment/Assign7.html)
 
 ## Final Projects
+- [Project Proposal](Assignment/XinYan.pdf)
